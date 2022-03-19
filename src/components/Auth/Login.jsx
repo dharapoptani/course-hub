@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Envelope, Lock, ArrowLeft } from "react-bootstrap-icons";
+import { ArrowLeft } from "react-bootstrap-icons";
 import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";
 import FormControl from "../../UI/FormControl";
 import Button from "../../UI/Button";
