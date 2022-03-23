@@ -77,7 +77,7 @@ const Signup = () => {
             <FormControl
               type="text"
               label="image"
-              icon="IMAGE"
+              icon="UPLOAD"
               onChange={getSignupData}
             />
           </div>

@@ -18,7 +18,7 @@ import {
   Envelope,
   Telephone,
   CardText,
-  PersonSquare,
+  Upload,
 } from "react-bootstrap-icons";
 
 function FormControl({ type, label, onChange, icon }) {
@@ -43,7 +43,7 @@ function FormControl({ type, label, onChange, icon }) {
   if (icon === "EMAIL") iconImg = <Envelope className={iconClass} />;
   if (icon === "PHONE") iconImg = <Telephone className={iconClass} />;
   if (icon === "DESCRIPTION") iconImg = <CardText className={iconClass} />;
-  if (icon === "IMAGE") iconImg = <PersonSquare className={iconClass} />;
+  if (icon === "UPLOAD") iconImg = <Upload className={iconClass} />;
 
   return (
     <div className="relative top-0 left-0 w-full">
