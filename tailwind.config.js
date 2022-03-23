@@ -8,6 +8,7 @@ module.exports = {
       },
       screens: {
         xsm: "500px",
+        // customized breakpoint - poptanidhara
         mxsm: { max: "1000px" },
       },
     },
